@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="../framework/css/main.css">
+    <link rel="stylesheet" href="../framework/css/normalize.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Title</title>
+</head>
+<body>
+    <div class="grid">
+        <!-- Header -->
+        <header class="row">
+            <picture class="col-6">
+                <source media="(max-width: 415px)" srcset="img/udacity_logo-small_2x.jpg 2x,
+                img/udacity_logo-small_1x.jpg">
+                <source media="(min-width: 416px) and (max-width: 600px)" srcset="img/udacity_logo-medium_2x.jpg 2x,
+                img/udacity_logo-medium_1x.jpg">
+                <source media="(min-width: 601px)" srcset="img/udacity_logo-large_2x.jpg 2x,
+                img/udacity_logo-large_1x.jpg">
+                <img class="header-logo" src="img/udacity_logo-small_2x.jpg"
+                     alt="This is the logo of Udacity, the organism which provide me the Front-End Developer courses.">
+            </picture>
+
+            <div class="col-6 row header-title">
+                <h1 class="col-12">Guillaume B.</h1>
+                <h2 class="col-12">Front-End Ninja</h2>
+
+            </div>
+        </header>
+        
+        <hr>
+
+        <!-- Theme image -->
+        <div class="row">
+            <picture class="col-12">
+                <source media="(max-width: 600px)" srcset="img/design-mockup-portfolio-theme-medium_2x.jpg 2x,
+                img/design-mockup-portfolio-theme-medium_1x.jpg">
+                <source media="(min-width: 601px) and (max-width: 940px)" srcset="img/design-mockup-portfolio-theme-large_2x.jpg 2x,
+                img/design-mockup-portfolio-theme-large_1x.jpg">
+                <source media="(min-width: 941px)" srcset="img/design-mockup-portfolio-theme-x-large_2x.jpg 2x,
+                img/design-mockup-portfolio-theme-x-large_1x.jpg">
+                <img class="theme-image" src="img/design-mockup-portfolio-theme-x-large_2x.jpg"
+                     alt="This is the theme image of the page. It represent the begining of an HTML page.">
+            </picture>
+        </div>
+
+         <!-- Projects gallery -->
+        <main>
+            <div class="row">
+                <h3 class="col-12">Featured work</h3>
+            </div>
+            <section class="row">
+                <div class="col-12 project-1">
+                    <picture>
+                        <source srcset="img/design-mockup-portfolio-1-medium_2x.jpg 2x,
+                                img/design-mockup-portfolio-1-medium_1x.jpg">
+                        <img src="img/design-mockup-portfolio-1-medium_2x.jpg"
+                             alt="This is an image of the first project of this portfolio.">
+                    </picture>
+                    <h4>Appify</h4>
+                    <h5><a href="#">https://github.com/udacity/Appify/</a></h5>
+                </div>
+                <div class="col-12 project-2">
+                    <picture>
+                        <source srcset="img/design-mockup-portfolio-2-medium_2x.jpg 2x,
+                                img/design-mockup-portfolio-2-medium_2x.jpg">
+                        <img src="img/design-mockup-portfolio-2-medium_2x.jpg"
+                             alt="This is an image of the second project of this portfolio.">
+                    </picture>
+                    <h4>Sunflower</h4>
+                    <h5><a href="#">https://github.com/udacity/Sunflower/</a></h5>
+                </div>
+                <div class="col-12 project-3">
+                    <picture>
+                        <source srcset="img/design-mockup-portfolio-3-medium_2x.jpg 2x,
+                                img/design-mockup-portfolio-3-medium_2x.jpg">
+                        <img src="img/design-mockup-portfolio-3-medium_2x.jpg"
+                             alt="This is an image of the third project of this portfolio.">
+                    </picture>
+                    <h4>Bokeh</h4>
+                    <h5><a href="#">https://github.com/udacity/Bokeh/</a></h5>
+                </div>
+            </section>
+        </main>
+        <hr>
+
+
+        <script src="https://cdn.rawgit.com/scottjehl/picturefill/master/dist/picturefill.min.js"></script>
+    </div>
+</body>
+</html>
