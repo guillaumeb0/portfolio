@@ -76,37 +76,37 @@ module.exports = function (grunt) {
                         width: '2800',
                         height: '300',
                         suffix: '_2x',
-                        quality: 20
+                        quality: 60
                     }, {
                         name: 'x-large',
                         width: '1400',
                         height: '300',
                         suffix: '_1x',
-                        quality: 40
+                        quality: 60
                     }, {
                         name: 'large',
                         width: '1880',
                         height: '300',
                         suffix: '_2x',
-                        quality: 20
+                        quality: 60
                     }, {
                         name: 'large',
                         width: '940',
                         height: '300',
                         suffix: '_1x',
-                        quality: 40
+                        quality: 60
                     }, {
                         name: 'medium',
                         width: '1200',
                         height: '200',
                         suffix: '_2x',
-                        quality: 40
+                        quality: 60
                     }, {
                         name: 'medium',
                         width: '600',
                         height: '200',
                         suffix: '_1x',
-                        quality: 40
+                        quality: 60
                     }
                     ]
                 },

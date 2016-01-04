@@ -2,7 +2,12 @@
     font-family: 'Lato', sans-serif;
 }
 
-/*Header*/
+/* Grid */
+.grid {
+    background-image: url("../img_src/wall4/wall4.png");
+}
+
+/* Header */
 .header-logo {
     width: 70px;
     padding-top: 10px;
@@ -35,14 +40,14 @@ header h2 {
 }
 
 
-/*Central part (containing the 'theme' image*/
+/* Central part (containing the 'theme' image */
 .theme-image {
     width: 100vw;
     height: 200px;
     max-height: 400px;
 }
 
-/*main*/
+/* main */
 main {
     width: 100%;
     max-width: 1041px;
@@ -50,7 +55,12 @@ main {
 
 main img {
     width: 100%;
-    height: 170px;
+    height: 150px;
+}
+
+main picture {
+    width: 100%;
+    height: 100%;
 }
 
 main h3 {
@@ -104,8 +114,9 @@ section a {
     }
 
     main img {
-        max-width: 300px;
-        max-height: 200px;
+        max-width: 200px;
+        max-height: 150px;
+        border-radius: 50%;
     }
 
     .project-1,
@@ -128,6 +139,8 @@ section a {
         color: #bcbbbb;
         font-size: xx-large;
     }
+
+
 }
 
 @media screen and (min-width: 601px) {
@@ -140,7 +153,6 @@ section a {
     .project-3 {
         width: 50%;
         margin: 0 0 0 0;
-        text-align: center;
     }
 
     header h1 {
@@ -153,6 +165,11 @@ section a {
 
     .theme-image {
         height: 300px;
+    }
+
+    main img {
+        width: 270px;
+        height: 200px;
     }
 }
 
@@ -173,14 +190,6 @@ section a {
 
     .theme-image {
         height: 400px;
-    }
-
-    .project-2 {
-        text-align: center;
-    }
-
-    .project-3 {
-        text-align: right;
     }
 }
 
