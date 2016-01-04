@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="import" href="elements/header-udacity.html">
     <link rel="stylesheet" href="../framework/css/main.css">
     <link rel="stylesheet" href="../framework/css/normalize.css">
     <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
@@ -10,26 +11,11 @@
     <title>Title</title>
 </head>
 <body>
+
     <div class="grid">
         <!-- Header -->
-        <header class="row">
-            <picture class="col-6">
-                <source media="(max-width: 415px)" srcset="img/udacity_logo-small_2x.jpg 2x,
-                img/udacity_logo-small_1x.jpg">
-                <source media="(min-width: 416px) and (max-width: 600px)" srcset="img/udacity_logo-medium_2x.jpg 2x,
-                img/udacity_logo-medium_1x.jpg">
-                <source media="(min-width: 601px)" srcset="img/udacity_logo-large_2x.jpg 2x,
-                img/udacity_logo-large_1x.jpg">
-                <img class="header-logo" src="img/udacity_logo-small_2x.jpg"
-                     alt="This is the logo of Udacity, the organism which provide me the Front-End Developer courses.">
-            </picture>
+        <header-udacity></header-udacity>
 
-            <div class="col-6 row header-title">
-                <h1 class="col-12">Guillaume B.</h1>
-                <h2 class="col-12">Front-End Ninja</h2>
-
-            </div>
-        </header>
 
         <hr>
 
@@ -89,6 +75,7 @@
 
 
         <script src="https://cdn.rawgit.com/scottjehl/picturefill/master/dist/picturefill.min.js"></script>
+        <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
     </div>
 </body>
 </html>
